@@ -117,3 +117,4 @@ C:\Users\matti\OneDrive\Desktop\spring2025\Keith\RecommendationSite\backend\Reco
 C:\Users\matti\OneDrive\Desktop\spring2025\Keith\RecommendationSite\backend\RecommendationSite.API\obj\Debug\net8.0\RecommendationSite.API.pdb
 C:\Users\matti\OneDrive\Desktop\spring2025\Keith\RecommendationSite\backend\RecommendationSite.API\obj\Debug\net8.0\RecommendationSite.API.genruntimeconfig.cache
 C:\Users\matti\OneDrive\Desktop\spring2025\Keith\RecommendationSite\backend\RecommendationSite.API\obj\Debug\net8.0\ref\RecommendationSite.API.dll
+C:\Users\matti\OneDrive\Desktop\spring2025\Keith\RecommendationSite\backend\RecommendationSite.API\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt

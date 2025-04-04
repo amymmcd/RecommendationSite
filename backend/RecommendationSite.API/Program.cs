@@ -13,6 +13,11 @@ builder.Services.AddCors();
 
 builder.Services.AddScoped<CsvCollaborativeRecommendationService>();
 
+//=================================================================================================MATTIA ADDED:
+builder.Services.AddSingleton(sp => new SimilarityService("Data/content_filtering_model.csv"));
+
+
+
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
