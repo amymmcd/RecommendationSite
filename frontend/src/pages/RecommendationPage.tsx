@@ -1,5 +1,6 @@
 import { useState, useEffect } from 'react';
 import CollaborativeRecommendation from '../components/CollaborativeRecommendation';
+import SimilarityMatrix from '../pages/SimilarityMatrix';
 
 type ArticleSummary = {
   articleId: number;
@@ -62,9 +63,14 @@ function RecommendationPage() {
       {/* Display error message if any */}
       {error && <p style={{ color: 'red' }}>{error}</p>}
 
-      {/* Show recommendation for selected article */}
+      {/* Show collaborative recommendation for selected article */}
       {selectedArticleId !== null && (
         <CollaborativeRecommendation itemId={selectedArticleId} />
+      )}
+
+      {/* Show content recommendation for selected article */}
+      {selectedArticleId !== null && (
+        <SimilarityMatrix itemId={selectedArticleId} />
       )}
     </div>
   );

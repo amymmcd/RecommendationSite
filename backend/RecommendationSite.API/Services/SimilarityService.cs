@@ -33,7 +33,7 @@
             return matrix;
         }
 
-        public List<(string Title, float Score)> GetTopSimilar(string title, int topN = 10)
+        public List<(string Title, float Score)> GetTopSimilar(string title, int topN = 5)
         {
             if (!_matrix.ContainsKey(title)) return new List<(string, float)>();
 
