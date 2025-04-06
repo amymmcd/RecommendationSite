@@ -22,21 +22,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 6,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\matti\\OneDrive\\Desktop\\spring2025\\Keith\\RecommendationSite\\backend\\RecommendationSite.API\\Program.cs",
-              "RelativeDocumentMoniker": "backend\\RecommendationSite.API\\Program.cs",
-              "ToolTip": "C:\\Users\\matti\\OneDrive\\Desktop\\spring2025\\Keith\\RecommendationSite\\backend\\RecommendationSite.API\\Program.cs",
-              "RelativeToolTip": "backend\\RecommendationSite.API\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAABcAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-04T22:43:19.15Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:11:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
@@ -60,6 +47,19 @@
             {
               "$type": "Bookmark",
               "Name": "ST:13:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\matti\\OneDrive\\Desktop\\spring2025\\Keith\\RecommendationSite\\backend\\RecommendationSite.API\\Program.cs",
+              "RelativeDocumentMoniker": "backend\\RecommendationSite.API\\Program.cs",
+              "ToolTip": "C:\\Users\\matti\\OneDrive\\Desktop\\spring2025\\Keith\\RecommendationSite\\backend\\RecommendationSite.API\\Program.cs",
+              "RelativeToolTip": "backend\\RecommendationSite.API\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-04T22:43:19.15Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
