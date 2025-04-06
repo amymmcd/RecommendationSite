@@ -12,6 +12,14 @@ const SimilarityMatrix = ({ itemId }: SimilarityMatrixProps) => {
   const [error, setError] = useState<string>('');
 
   useEffect(() => {
+    const url = `http://localhost:4000/api/Similar/recommend?title=${itemId}&top=5`;
+    console.log("Fetching from:", url);
+    
+    console.log('Current itemId:', itemId); // <--- Add this
+    if (!itemId) return;
+
+    
+
     const fetchRecommendation = async () => {
       try {
         const response = await fetch(
@@ -19,7 +27,7 @@ const SimilarityMatrix = ({ itemId }: SimilarityMatrixProps) => {
         );
         if (!response.ok) throw new Error('Failed to fetch recommendation.');
         const data = await response.json();
-        console.log('Fetched content recommendations:', data);
+        console.log('Fetched data for content filtering recommendations:', data);
         setRecommendations2(data);
       } catch (err) {
         console.error(err);
@@ -34,11 +42,11 @@ const SimilarityMatrix = ({ itemId }: SimilarityMatrixProps) => {
 
   return (
     <div className="p-4 border rounded shadow mt-4 text-left">
-      <h3 className="font-bold text-lg mb-2">
-        Collaborative Filtering Recommendations:
-      </h3>
 
       {error && <p style={{ color: 'red' }}>{error}</p>}
+      <h3 className="font-bold text-lg mb-2">
+        Content Filtering Recommendations for Article #{itemId}:{' '}
+      </h3>
 
       {Array.isArray(recommendations2) && recommendations2.length > 0 ? (
         <ol style={{ textAlign: 'left' }}>
